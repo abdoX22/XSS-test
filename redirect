@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Test XSS</h1>
+
+<script>
+location.href="https://attacker.com";
+</script>
+
+</body>
+</html>
